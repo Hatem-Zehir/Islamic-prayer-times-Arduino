@@ -30,3 +30,19 @@ The parameters needed are:
 |Muslim World League|18 Degrees|17 Degrees|Europe, The Far East, Parts of the USA|
 |Umm Al-Qura Committee|19 Degrees|90 minutes after the Sunset Prayer, 120 minutes (in Ramadan only)|The Arabian Peninsula|
 |Egyptian General Authority of Survey|19.5 Degrees|17.5 Degrees|Africa, Syria, Iraq, Lebanon, Malaysia, Parts of the USA|
+
+## How does the program work?
+The function takes the data of Year/Month/Day/Longitude/Latitude/TimeZone/FajrTwilight/IshaTwilight plus 6 references to double variables (Fajr/SunRise/Zuhr/Asr/Maghrib/Isha). These 6 variables are the ones to return data into. there is also some functions to help in some number conversions (for example, Radians to Degrees and vise versa).
+
+So, if we take Cairo as an example:
+- Longitude: 30.2
+- Latitude: 30
+- Time Zone: +2 
+- Fajr Twilight: -19.5
+- Esha Twilight: -17.5
+
+We should adapt the line 164 like this:
+```
+calcPrayerTimes(year, month, dayOfMonth, 30.2, 30, 2, -19.5, -17.5, fajr, sunRise, zuhr, asr, maghrib, isha);
+```
+Note that these prayer times are still "double" and should be converted to a time format. Mahmoud Adly Ezzat made the doubleToHrMin function (you can find it before the calcPrayerTimes function) which splits the number into Hours and Minutes. It takes the double and two references to int variables.
