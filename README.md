@@ -7,3 +7,6 @@ This is an Arduino code that displays on a Nokia 5510 display the Date and the T
 - Nokia 5510 display
 - Jumper wires
 - Breadboard
+
+Here is the schematic of the circuit
+![Circuit Schematic](https://github.com/Hatem-Zehir/Islamic-prayer-times-Arduino/blob/main/Circuit-of-the-Arduino-prayer-times-calculator.png)
