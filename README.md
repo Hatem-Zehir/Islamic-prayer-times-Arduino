@@ -10,3 +10,6 @@ This is an Arduino code that displays on a Nokia 5510 display the Date and the T
 
 Here is the schematic of the circuit
 ![Circuit Schematic](https://github.com/Hatem-Zehir/Islamic-prayer-times-Arduino/blob/main/Circuit-of-the-Arduino-prayer-times-calculator.png)
+
+## The program
+This code has math routines to compute sun position and Muslims salat (prayer) time for a given town (latitude/longitude), DST, and convention. The hardware part is composed of an Arduino UNO (you can use any other arduino board), an RTC DS1307, and the Nokia 5510 display to display the time, the date, and prayer times.
