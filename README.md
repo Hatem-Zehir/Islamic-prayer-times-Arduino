@@ -46,3 +46,5 @@ We should adapt the line 164 like this:
 calcPrayerTimes(year, month, dayOfMonth, 30.2, 30, 2, -19.5, -17.5, fajr, sunRise, zuhr, asr, maghrib, isha);
 ```
 Note that these prayer times are still "double" and should be converted to a time format. Mahmoud Adly Ezzat made the doubleToHrMin function (you can find it before the calcPrayerTimes function) which splits the number into Hours and Minutes. It takes the double and two references to int variables.
+
+**P.S:** the Prayer time calculation algorithm is written by Mahmoud Adly Ezzat. You can read more about it in his [blog post](http://3adly.blogspot.com/2010/07/prayer-times-calculations-pure-c-code.html).
