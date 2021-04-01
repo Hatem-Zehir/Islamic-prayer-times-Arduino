@@ -148,11 +148,11 @@ void setup()  {
   display.setTextColor(BLACK);
   display.setTextSize(1);
   display.setCursor(22, 18);
-  display.print("RAMADHAN");
+  display.print("Hatem");
   display.display();
   delay(500);
   display.setCursor(24, 28);
-  display.print("MUBARAK");
+  display.print("ZEHIR");
   display.display();
   delay(500);
   getDateDs1307() ;
