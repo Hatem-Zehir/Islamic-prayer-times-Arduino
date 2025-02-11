@@ -7,6 +7,7 @@ This is an Arduino code that displays on a Nokia 5510 LCD the Date and the Time 
 - Nokia 5510 display: https://s.click.aliexpress.com/e/_oluFaPJ
 - Jumper wires
 - Breadboard
+
 Those links are affiliate link, and I may earn a small commission at no extra cost to you.
 
 Here is the schematic of the circuit
