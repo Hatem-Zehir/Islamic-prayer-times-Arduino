@@ -4,7 +4,7 @@ This is an Arduino code that displays on a Nokia 5510 LCD the Date and the Time 
 ## Hardware components
 | Component | Link |
 |-----------|------|
-| Arduino Board (e.g., UNO) | [Buy](https://s.click.aliexpress.com/e/_oFe9rDB) |
+| Arduino Board (e.g., Arduino UNO, Nano, etc.) | [Buy](https://s.click.aliexpress.com/e/_oFe9rDB) |
 | DS1307 RTC Module | [Buy](https://s.click.aliexpress.com/e/_on4dd9J) |
 | Nokia 5510 Display | [Buy](https://s.click.aliexpress.com/e/_oluFaPJ) |
 | Jumper Wires & Breadboard | |
