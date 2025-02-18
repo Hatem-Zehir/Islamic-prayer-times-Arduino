@@ -2,12 +2,12 @@
 This is an Arduino code that displays on a Nokia 5510 LCD the Date and the Time and also calculates and displays Salat Time (prayer time) for a given town.
 
 ## Hardware components
-**Arduino Board:** (e.g., Arduino UNO, Nano, etc.) - [AliExpress Link (Affiliate)](https://s.click.aliexpress.com/e/_oFe9rDB)
->  *Any Arduino-compatible board will work fine.  Make sure it has sufficient digital pins for the RTC and LCD.*
-**DS1307 RTC Module:** Real-Time Clock module for accurate timekeeping - [AliExpress Link (Affiliate)](https://s.click.aliexpress.com/e/_on4dd9J)
-**Nokia 5110 LCD:**  Monochrome graphic LCD display - [AliExpress Link (Affiliate)](https://s.click.aliexpress.com/e/_oluFaPJ)
-**Jumper Wires:** For connecting the components.
-**Breadboard:** For easy prototyping.
+| Component | Link |
+|-----------|------|
+| Arduino Board (e.g., UNO) | [Buy](https://s.click.aliexpress.com/e/_oFe9rDB) |
+| DS1307 RTC Module | [Buy](https://s.click.aliexpress.com/e/_on4dd9J) |
+| Nokia 5510 Display | [Buy](https://s.click.aliexpress.com/e/_oluFaPJ) |
+| Jumper Wires & Breadboard | |
 
 > ℹ️ **Affiliate Links:**  The links above are affiliate links.  If you purchase through these links, I may earn a small commission at no extra cost to you.
 
